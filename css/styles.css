@@ -259,6 +259,9 @@ img {
 }
 
 /*? ---------------PORTFOL------------- */
+.portfolio section {
+    border: 1px solid #e7e9fc;
+}
 
 .portfolio-titl {
     color: #2E2F42;
