@@ -126,10 +126,10 @@ img {
 
 .one {
     background-color: #2E2F42;
-    padding-top: 188px; 
-    padding-bottom: 188px;
     align-items: center;
     width: 100%;
+    padding-top: 188px; 
+    padding-bottom: 188px;
 }
 
 .one-title {
