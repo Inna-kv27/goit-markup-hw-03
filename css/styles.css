@@ -130,7 +130,8 @@ img {
 .one-conteiner {
     align-items: center;
     width: 100%;
-    padding: 188px 0;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .one-title {
     color: #FFF;
@@ -155,6 +156,7 @@ img {
     border: none;
     display: block;
     margin: 0 auto;
+    min-width: 169px;
     gap: 10px;
     cursor: pointer;
 }
@@ -186,7 +188,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    max-width: 264;
+    max-width: 264px;
 }
 
 .two-text {
@@ -225,11 +227,9 @@ img {
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     width: calc((100% - 24px * 3) / 4);
     display: inline-flex;
-    padding-bottom: 32px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 32px;
 }
 .three-cont {
     display: flex;
@@ -237,19 +237,23 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 8px; 
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .three-list-name {
     color: #2E2F42;
+    text-align: center;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .three-list-text {
     color: #434455;
+    text-align: center;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -272,22 +276,20 @@ img {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    
+    border: 1px solid #E7E9FC);
 }
 
 .portfolio-item {
     max-width: 360px;
     width: calc((100% - 24px * 2) / 3);
     border: 1px solid #E7E9FC;
-
 }
 
 .portfolio-item-img {
-    padding-bottom: 32px;
 }
 
 .portfolio-cont {
-    padding-left: 16px;
+    padding: 32px 16px;
 }
 
 .portfolio-item-name {
@@ -296,7 +298,7 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .portfolio-item-text {
@@ -310,8 +312,7 @@ img {
 
 .footer {
     background-color: #2E2F42;
-    padding-top: 101.5px;
-    padding-bottom: 100px;
+    padding: 100px 0 100px;
 }
 
 .footer-logo {
@@ -321,6 +322,8 @@ img {
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    display: inline-block;
+    margin-bottom: 16px;
     text-transform: uppercase;
 }
 
@@ -334,7 +337,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
-    margin-top: 17.5px;
 }
 
 /*? ------------------END-------------- */
