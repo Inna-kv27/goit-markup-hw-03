@@ -130,8 +130,7 @@ img {
 .one-conteiner {
     align-items: center;
     width: 100%;
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding: 188px 0 188px;
 }
 .one-title {
     color: #FFF;
@@ -276,7 +275,6 @@ img {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    border: 1px solid #E7E9FC);
 }
 
 .portfolio-item {
