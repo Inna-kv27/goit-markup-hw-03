@@ -126,12 +126,12 @@ img {
 
 .one {
     background-color: #2E2F42;
-}
-.one-conteiner {
+    padding-top: 188px; 
+    padding-bottom: 188px;
     align-items: center;
     width: 100%;
-    padding: 188px 0 188px;
 }
+
 .one-title {
     color: #FFF;
     text-align: center;
@@ -275,6 +275,7 @@ img {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    border: 1px solid #E7E9FC;
 }
 
 .portfolio-item {
