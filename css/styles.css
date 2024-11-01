@@ -22,6 +22,8 @@ h1,h2,h3,h4,h5,h6,p {
 
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .container { 
@@ -57,7 +59,6 @@ img {
 
 .header {
     border-bottom: 1px solid #E7E9FC;
-
 }
 
 .header-nav {
@@ -98,6 +99,7 @@ img {
 .header-nav-link:focus {
     color:  #404BBF;
 }
+
 .header-address {
     font-style: normal;
     margin-left: auto;
